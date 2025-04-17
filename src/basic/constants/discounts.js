@@ -1,0 +1,26 @@
+const PRODUCT_SALE = {
+  QUANTITY: 10,
+};
+
+const PROMOTION_SALE = {
+  LUCKY: {
+    DISCOUNT_RATE: 0.8,
+    PROBABILITY: 0.3,
+    INITIAL_DELAY: 10 * 1000,
+    INTERVAL: 30 * 1000,
+  },
+  RECOMMENDED: {
+    DISCOUNT_RATE: 0.95,
+    INITIAL_DELAY: 20 * 1000,
+    INTERVAL: 60 * 1000,
+  },
+  BULK: {
+    DISCOUNT_RATE: 0.25,
+    QUANTITY: 30,
+  },
+  TUESDAY: {
+    DISCOUNT_RATE: 0.1,
+  },
+};
+
+export { PRODUCT_SALE, PROMOTION_SALE };
